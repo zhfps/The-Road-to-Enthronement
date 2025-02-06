@@ -424,4 +424,5 @@
  :default-home {}
  :graph/settings {:journal? true
  :builtin-pages? true
- :excluded-pages? true}}
+ :excluded-pages? true}
+ :journal/page-title-format "yyyy-MM-dd"}
