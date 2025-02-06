@@ -10,7 +10,7 @@
  ;; Available options:
  ;; - :now for NOW/LATER style (default)
  ;; - :todo for TODO/DOING style
- :preferred-workflow :todo
+ :preferred-workflow :now
 
  ;; Exclude directories/files.
  ;; Example usage:
@@ -50,7 +50,7 @@
 
  ;; Automatically expand block references when zooming in.
  ;; Default value: true
- :ui/auto-expand-block-refs? false
+ :ui/auto-expand-block-refs? true
 
  ;; Enable Block timestamps.
  ;; Default value: false
@@ -419,4 +419,10 @@
  ;;      ;use triple underscore `___` for slash `/` in page title
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
- :editor/logical-outdenting? true}
+ :editor/logical-outdenting? true
+ :feature/enable-journals? true
+ :default-home {}
+ :graph/settings {:journal? true
+ :builtin-pages? true
+ :excluded-pages? true}
+ :journal/page-title-format "yyyy-MM-dd"}
