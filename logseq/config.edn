@@ -421,4 +421,7 @@
  :file/name-format :triple-lowbar
  :editor/logical-outdenting? true
  :feature/enable-journals? true
- :default-home {}}
+ :default-home {}
+ :graph/settings {:journal? true
+ :builtin-pages? true
+ :excluded-pages? true}}
