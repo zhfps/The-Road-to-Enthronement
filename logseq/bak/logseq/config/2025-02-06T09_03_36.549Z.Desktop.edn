@@ -419,4 +419,6 @@
  ;;      ;use triple underscore `___` for slash `/` in page title
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
- :editor/logical-outdenting? true}
+ :editor/logical-outdenting? true
+ :feature/enable-journals? false
+ :default-home {}}

@@ -420,5 +420,4 @@
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :editor/logical-outdenting? true
- :feature/enable-journals? true
- :default-home {}}
+ :feature/enable-journals? false}
