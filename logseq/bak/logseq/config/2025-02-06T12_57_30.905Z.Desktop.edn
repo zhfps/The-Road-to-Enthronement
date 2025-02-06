@@ -420,4 +420,9 @@
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :editor/logical-outdenting? true
- :feature/enable-journals? false}
+ :feature/enable-journals? true
+ :default-home {}
+ :graph/settings {:journal? true
+ :builtin-pages? true
+ :excluded-pages? true}
+ :journal/page-title-format "yyyy-MM-dd"}

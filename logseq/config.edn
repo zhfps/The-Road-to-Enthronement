@@ -420,7 +420,7 @@
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :editor/logical-outdenting? true
- :feature/enable-journals? true
+ :feature/enable-journals? false
  :default-home {}
  :graph/settings {:journal? true
  :builtin-pages? true
